@@ -1,0 +1,14 @@
+//les commande essentiel de git 
+git init # Initialiser un projet git sur son pc
+git add . # Selection des fichier a envoyer 
+git commit -m "New: Premier commit by Sayna" # Creation d'un package avant envoi
+git branch -M main # Creation de la branche principal 'Main'
+git remote add origin https://github.com/..............# Link entre le code sur le pc avec les serveurs de Github 
+git push -u origin main # Envoi du package 
+
+//les plus important a retenir 
+
+git add . # Selection des fichier a envoyer (. => tout)
+git commit -m "..." # Creation d'un package avant envoi
+git push # Envoi 
+ 

@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
 body{
   margin: 0;
   padding: 0;
 }
 header{
-  height: 5vh; /* prend directement la hauteur par rapport a body sans specifier un hauteur a l'element parent body */
+  height: 7vh; /* prend directement la hauteur par rapport a body sans specifier un hauteur a l'element parent body */
   color: white;
   padding: 1%;
   background-color:  #C55394;
@@ -12,7 +14,11 @@ header div{
   float: left;
   margin: 1em 0;
 }
+header div > h1{
+  margin: 0;
+}
 header > div a {
+  font-family: 'courgette', cursive;
   color: white;
   text-decoration: none;
 }
@@ -23,4 +29,74 @@ header nav{
 header ul > li {
   padding: 0 2%;
   display: inline;
+}
+header ul > li:hover {
+  padding: 0 2%;
+  display: inline;
+ background-color: #EB43A3;
+}
+main {
+  padding-top: 5%;
+  padding-bottom: 5% !important;
+  background-image: url('../img/background.png');
+}
+main > div > p{
+  margin: 0;
+  padding: 2% 0;
+  color: #C55394;
+  font-size: x-large;
+  text-align: center;
+  font-family: 'courgette', cursive;
+  background-size: 20%;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+
+  background-image: url('../img/rainbow.png');
+  
+}
+main > div.content{
+  margin: 0 20%;
+  padding: 5% 2%; 
+  border-radius: 25px;
+  background-color: white;
+  box-shadow: 5px 5px 25px;
+}
+main > div.content{
+  margin: 0 20%;
+  padding: 5% 2%; 
+  border-radius: 25px;
+  background-color: white;
+}
+main .col-unicorn figure{
+  margin: 0 0.5em;
+}
+main .col-unicorn figure figcaption{
+  margin: 0;
+  padding: 2% 0;
+  color: white;
+  text-align: center;
+  position: relative;
+  margin-top: -15%;
+  background-color: rgb(51 51 51/90%);
+
+} 
+.row {
+  display: flex;
+}
+.row > .col-unicorn img{
+  width: 100%;
+}
+.titlePink{
+  color: #C55394;
+  font-family: 'courgette', cursive;
+}
+footer{
+  height: 3vh; /* prend directement la hauteur par rapport a body sans specifier un hauteur a l'element parent body */
+  color: white;
+  padding: 1%;
+  background-color:  #C55394;
+}
+footer > p{
+  margin: 0;
+  text-align: end;
 }
